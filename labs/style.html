@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Forms 2</title>
+<link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+<header>
+    <h1>Lab 3 2nd form</h1>
+</header>
+
+<div>
+<form action="processForm.php" method="POST">
+    <div class="inputRow">
+        <label class="myLabel" for="name" class="myLabel">Your name</label>
+        <input class="myInput" type="text" name="name" placeholder="Enter your name here" pattern="[A-Za-z].{1,}" required/>
+    </div>
+    <div class="inputRow">
+            <label class="myLabel" for="email" class="myLabel">Email</label>
+            <input class="myInput" type="text" name="email" placeholder="example@abc.com" pattern="[A-Za-z]@[A-Za-z]\.[a-z]{2,}$"/>
+        </div>
+    <div class="inputRow">
+        <label class="myLabel" for="username" class="myLabel">Username</label>
+        <input class="myInput" type="text" name="username" placeholder="Enter username here" pattern="[A-Za-z0-9].{0,}"/>
+    </div>
+    <div class="inputRow">
+            <label class="myLabel" for="province" class="myLabel">Province</label>
+            <select name="province">            
+                <option value="AB">AB</option>
+                <option value="BC" selected>BC</option>
+                <option value="MB">MB</option>
+                <option value="NB">NB</option>
+                <option value="NL">NL</option>
+                <option value="NT">NT</option>
+                <option value="NS">NS</option>
+                <option value="NU">NU</option>
+                <option value="ON">ON</option>
+                <option value="PE">PE</option>
+                <option value="QC">QC</option>
+                <option value="SK">SK</option>
+                <option value="YT">YT</option>
+            </select>
+        </div>
+    <div class="inputRow">
+        <label class="myLabel" for="postalcode" class="myLabel">Postal Code</label>
+        <input class="myInput" type="text" name="postalcode" pattern="^[A-Za-z]\d[A-Za-z][ ]?\d[A-Za-z]\d$" required/>
+    </div>
+    <div class="inputRow">
+            <label class="myLabel" for="submit" class="myLabel"></label>
+            <input class="myInput" type="submit" name="go" value="Go!"/>
+        </div>
+</form>
+
+
+</div>
+</body>
+</html>
