@@ -1,3 +1,11 @@
+<p>
+Name: Fizza Akhzar</br>
+Online Demo: https://fizzafinalccps530.appspot.com/</br>
+Project Title: Book Club</br>
+Instructor: Ghassem Tofighi</br>
+License: MIT Licence</br></p>
+
+
 <h1>Create and read book reviews like a blogging environment</h1>
 <p>In this developer code, we will create a web app using Python, Flask, HTML & CSS. This web app allows users to read book reviews by other users, and registered users can log in and post their own reviews.</p>
 <h1>Flow</h1>
@@ -19,6 +27,11 @@
 <h1>Watch the video walkthrough</h1>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Hog6cyJ4Oyw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</br>
+
+
+<h1>Credits:</h1>
 
 <p>This web app was made following the tutorial by Corey M Schafer</p>
 <p><a href="https://github.com/CoreyMSchafer/code_snippets/tree/master/Python/Flask_Blog">GitHub Repository Link</a></p>
+
