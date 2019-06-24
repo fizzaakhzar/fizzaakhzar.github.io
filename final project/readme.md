@@ -18,4 +18,6 @@
 
 <h1>Watch the video walkthrough</h1>
 
+<video>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Hog6cyJ4Oyw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</video>
