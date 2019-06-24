@@ -18,6 +18,7 @@
 
 <h1>Watch the video walkthrough</h1>
 
-<video>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Hog6cyJ4Oyw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</video>
+
+<p>This web app was made following the tutorial by Corey M Schafer</p>
+<p><a href="https://github.com/CoreyMSchafer/code_snippets/tree/master/Python/Flask_Blog">GitHub Repository Link</a></p>
